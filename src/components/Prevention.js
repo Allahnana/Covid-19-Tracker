@@ -10,161 +10,29 @@ export class Prevention extends Component {
           body
           style={{
             backgroundColor: '',
-            borderColor: 'black',
+            borderColor: 'red',
             marginBottom: '5px',
+            paddingTop: '30px',
+            marginRight:'10px',
+            marginLeft:'10px'
           }}
         >
           <CardTitle style={{ marginTop: '-10px' }}>
             <strong>Hey </strong>
-            <h3>Thank You. This page will update very soon.</h3>
+            <p>On January 30, 2020, the WHO declared the COVID-19 outbreak a public health emergency of international concern and, 
+            in March 2020, began to characterize it as a pandemic in order to emphasize the gravity of the situation and urge all countries to take action in detecting infection and preventing spread.
+            Unfortunately, there is no medication that has been approved by the FDA, gone through controlled studies and demonstrated an effect on the virus for this global pandemic.
+            Although there are cures for illnesses and developments made by leaps and bounds in our day, 
+            the strongest and most effective weapon that society has against this virus that is affecting not just health but also economics,
+            politics, and social order, is the prevention of its spread. The main points in preventing the spread in society are hand hygiene,
+            social distancing and quarantine. With increased testing capacity, 
+            detecting more COVID-19 positive patients in the community will also enable the reduction of secondary cases with stricter quarantine rules.</p>
           </CardTitle>
         </Card>
-
-        <Card
-          body
-          style={{
-            backgroundColor: '',
-            borderColor: 'black',
-            marginBottom: '5px',
-          }}
-        >
-          <CardTitle style={{ marginTop: '-10px' }}>
-            <strong>Hey </strong>
-            <h3>Thank You. This page will update very soon.</h3>
-          </CardTitle>
-        </Card>
-
-        <Card
-          body
-          style={{
-            backgroundColor: '',
-            borderColor: 'black',
-            marginBottom: '5px',
-          }}
-        >
-          <CardTitle style={{ marginTop: '-10px' }}>
-            <strong>Hey </strong>
-            <h3>Thank You. This page will update very soon.</h3>
-          </CardTitle>
-        </Card>
-
-        <Card
-          body
-          style={{
-            backgroundColor: '',
-            borderColor: 'black',
-            marginBottom: '5px',
-          }}
-        >
-          <CardTitle style={{ marginTop: '-10px' }}>
-            <strong>Hey </strong>
-            <h3>Thank You. This page will update very soon.</h3>
-          </CardTitle>
-        </Card>
-
-        <Card
-          body
-          style={{
-            backgroundColor: '',
-            borderColor: 'black',
-            marginBottom: '5px',
-          }}
-        >
-          <CardTitle style={{ marginTop: '-10px' }}>
-            <strong>Hey </strong>
-            <h3>Thank You. This page will update very soon.</h3>
-          </CardTitle>
-        </Card>
-
-        <Card
-          body
-          style={{
-            backgroundColor: '',
-            borderColor: 'black',
-            marginBottom: '5px',
-          }}
-        >
-          <CardTitle style={{ marginTop: '-10px' }} >
-            <strong>Hey </strong>
-            <h3>Thank You. This page will update very soon.</h3>
-          </CardTitle>
-        </Card>
-
-        <Card
-          body
-          style={{
-            backgroundColor: '',
-            borderColor: 'black',
-            marginBottom: '5px',
-          }}
-        >
-          <CardTitle style={{ marginTop: '-10px' }}>
-            <strong>Hey </strong>
-            <h3>Thank You. This page will update very soon.</h3>
-          </CardTitle>
-        </Card>
-
-        <Card
-          body
-          style={{
-            backgroundColor: '',
-            borderColor: 'black',
-            marginBottom: '5px',
-          }}
-        >
-          <CardTitle style={{ marginTop: '-10px' }}>
-            <strong>Hey </strong>
-            <h3>Thank You. This page will update very soon.</h3>
-          </CardTitle>
-        </Card>
+       
       </div>
     );
   }
 }
 
 export default Prevention;
-
-// import React from 'react';
-// import { Container, Col, Card } from 'react-bootstrap';
-
-// const PreventionRows = () => {
-//   return (
-//     <Container>
-//       <Col>
-//         <Card>
-//           <Card.Body>
-//             {/* <BsFillShieldFill size={30} /> */}
-//             <Card.Title>Wear a Mask</Card.Title>
-//             <Card.Text>
-//               Wear a mask to protect yourself and others from the spread of COVID-19.
-//             </Card.Text>
-//           </Card.Body>
-//         </Card>
-//       </Col>
-//       <Col>
-//         <Card>
-//           <Card.Body>
-//             {/* <BsPeopleFill size={30} /> */}
-//             <Card.Title>Maintain Social Distancing</Card.Title>
-//             <Card.Text>
-//               Keep a safe distance of at least 6 feet from others to reduce the risk of transmission.
-//             </Card.Text>
-//           </Card.Body>
-//         </Card>
-//       </Col>
-//       <Col>
-//         <Card>
-//           <Card.Body>
-//             {/* <BsHandWashFill size={30} /> */}
-//             <Card.Title>Wash Your Hands</Card.Title>
-//             <Card.Text>
-//               Wash your hands frequently with soap and water for at least 20 seconds.
-//             </Card.Text>
-//           </Card.Body>
-//         </Card>
-//       </Col>
-//     </Container>
-//   );
-// };
-
-// export default PreventionRows;
