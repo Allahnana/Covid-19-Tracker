@@ -289,7 +289,7 @@ class LocalData extends Component {
                     onClick={() => {
                       let win = window.open('');
                       win.location.replace(
-                        'https://github.com/shahibuzzaman/covid19-tracker-reactJS'
+                        'https://github.com/Allahnana/Covid-19-Tracker'
                       );
                     }}
                   >
