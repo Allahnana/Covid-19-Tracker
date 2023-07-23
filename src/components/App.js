@@ -85,12 +85,12 @@ class App extends Component {
                             <Col sm={6}>
                               <Nav
                                 fill
-                                variant='pills'
+                                // variant='pills'
                                 defaultActiveKey='first'
                               >
                                 <Nav.Item>
                                   <Nav.Link
-                                    className='btn-info'
+                                    className='btn-info rounded'
                                     eventKey='first'
                                   >
                                     Covid-19 Map
@@ -103,7 +103,7 @@ class App extends Component {
                                 >
                                   <Nav.Link
                                     eventKey='second'
-                                    className='btn-info'
+                                    className='btn-info rounded'
                                   >
                                     All Countries
                                   </Nav.Link>
