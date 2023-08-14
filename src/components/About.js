@@ -12,7 +12,7 @@ export class About extends Component {
     return (
       <div style={{ marginTop: '70px', marginLeft: '50px' }}>
         <h3>About Covid19</h3>
-        <p>An up-to-date rundown about the virus and it's sysmtoms</p>
+        <p>An up-to-date rundown about the virus and it's sysmtoms AHUSA</p>
 
 
         <Card
